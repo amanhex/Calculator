@@ -1,22 +1,22 @@
-# React Calculator App
+# React Calculator App 🧮
 
 A basic calculator application built with React and Vite, deployed using GitHub Pages.
 
-## Features
+## Features ✨
 
 - Perform basic arithmetic operations (addition, subtraction, multiplication, division).
 - Clear the display (`C` button) and delete the last character (`Backspace` button).
 - Evaluate expressions using the `=` button or pressing `Enter`.
 - Responsive design for various screen sizes.
 
-## Technologies Used
+## Technologies Used 🛠️
 
-- React
-- Vite
-- JavaScript (ES6+)
-- HTML5 & CSS3
+- React ⚛️
+- Vite 🚀
+- JavaScript (ES6+) 📜
+- HTML5 & CSS3 🎨
 
-## Getting Started
+## Getting Started 🚀
 
 To run this project locally, follow these steps:
 
@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
 
    Visit `http://localhost:3000` to view the app.
 
-## Deployment
+## Deployment 🌐
 
 This project is deployed using GitHub Pages. To deploy the project:
 
@@ -63,7 +63,7 @@ This project is deployed using GitHub Pages. To deploy the project:
 
    The app will be available at `https://your-username.github.io/repository-name`.
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Here's how you can contribute to this project:
 
@@ -73,6 +73,6 @@ Contributions are welcome! Here's how you can contribute to this project:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
