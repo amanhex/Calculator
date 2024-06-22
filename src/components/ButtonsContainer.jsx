@@ -1,0 +1,35 @@
+import Buttons from "./Buttons";
+
+const ButtonsContainer = ({ handleOnClick }) => {
+  const buttonNames = [
+    "C",
+    "1",
+    "2",
+    "+",
+    "3",
+    "4",
+    "-",
+    "5",
+    "6",
+    "*",
+    "7",
+    "8",
+    "/",
+    "=",
+    "9",
+    "0",
+    ".",
+  ];
+  return (
+    <>
+      <div className="buttons-container">
+        <Buttons
+          buttonNames={buttonNames}
+          handleOnClick={handleOnClick}
+        ></Buttons>
+      </div>
+    </>
+  );
+};
+
+export default ButtonsContainer;
