@@ -1,6 +1,6 @@
 import Buttons from "./Buttons";
 
-const ButtonsContainer = ({ handleOnClick }) => {
+const ButtonsContainer = ({ handleOnClick, handleKeyDown }) => {
   const buttonNames = [
     "C",
     "1",
@@ -20,15 +20,15 @@ const ButtonsContainer = ({ handleOnClick }) => {
     "0",
     ".",
   ];
+
   return (
-    <>
-      <div className="buttons-container">
-        <Buttons
-          buttonNames={buttonNames}
-          handleOnClick={handleOnClick}
-        ></Buttons>
-      </div>
-    </>
+    <div className="buttons-container">
+      <Buttons
+        buttonNames={buttonNames}
+        handleOnClick={handleOnClick}
+        handleKeyDown={handleKeyDown}
+      />
+    </div>
   );
 };
 

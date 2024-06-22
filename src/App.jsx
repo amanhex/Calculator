@@ -1,8 +1,8 @@
+import React, { useState } from "react";
 import AppTitle from "./components/AppTitle";
 import Display from "./components/Display";
 import ButtonsContainer from "./components/ButtonsContainer";
 import "./App.css";
-import { useState } from "react";
 
 export default function App() {
   const [calVal, setCalVal] = useState("");
@@ -23,12 +23,20 @@ export default function App() {
     }
   };
 
+  const handleKeyDown = (event) => {
+    console.log(event.key);
+    // You can add your logic here to handle the key events
+  };
+
   return (
     <>
       <AppTitle />
       <div className="calculator">
         <Display displayValue={calVal} />
-        <ButtonsContainer handleOnClick={onButtonClick} />
+        <ButtonsContainer
+          handleOnClick={onButtonClick}
+          handleKeyDown={handleKeyDown}
+        />
       </div>
     </>
   );
