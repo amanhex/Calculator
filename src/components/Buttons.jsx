@@ -1,4 +1,4 @@
-const Buttons = ({ buttonNames, handleOnClick, handleKeyDown }) => {
+const Buttons = ({ buttonNames, handleOnClick }) => {
   return (
     <>
       {buttonNames.map((buttonName, index) => (
@@ -6,7 +6,6 @@ const Buttons = ({ buttonNames, handleOnClick, handleKeyDown }) => {
           className="button"
           key={index}
           onClick={() => handleOnClick(buttonName)}
-          onKeyDown={handleKeyDown}
         >
           {buttonName}
         </button>
